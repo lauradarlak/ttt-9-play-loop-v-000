@@ -40,5 +40,6 @@ end
 def play(board)
   turn(board)
   until board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    turn(board)
   end
 end
